@@ -1,0 +1,33 @@
+##############################################################################
+#
+#     .GITIGNORE
+#
+#     Copyright (c) 2011 Rehno Lindeque. All rights reserved.
+#
+##############################################################################
+
+# Ignore any build directories
+build/
+
+# Ignore any lib directories
+lib/
+
+# Ignore any bin directories
+bin/
+
+# Ignore build files
+*.a
+*.o
+*.pyc
+.hi
+
+# Ignore temporary files
+*~
+*.backup
+
+# Ignore any other version control system
+.svn
+.cvs
+
+# Ignore unnecessary build system files
+.sconsign.dblite
